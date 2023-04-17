@@ -1,7 +1,7 @@
 
 // import logo from './logo.svg';
-
 import './App.css';
+
 // import Course from './components/Course';
 // import CourseList from './components/CourseList';
 
@@ -14,8 +14,12 @@ import './App.css';
 // import Conditional from './components/Conditional';
 // import StyleSheet from './components/StyleSheet';
 // import Form from './components/Form';
-
-import Lifecycle from './components/Lifecycle';
+// import Lifecycle from './components/Lifecycle';
+// import FragmentDemo from './components/fragment/FragmentDemo';
+// import ParentComp from './components/pure_component/ParentComp';
+// import Input from './components/refs/RefDemo';
+// import FocusInput from './components/refs/FocusInput';
+// import FRParent from './components/refs/FRParent';
 
 function App() {
   return (
@@ -32,11 +36,16 @@ function App() {
       {/* <CourseList/> */}
       {/* <StyleSheet begin = {true}/> */}
       {/* <Form/> */}
+      {/* <Lifecycle/> */}
+      {/* <FragmentDemo/> */}
+      {/* <ParentComp/> */}
+      {/* <FocusInput/> */}
+      {/* <FRParent/> */}
 
-      <Lifecycle/>
+      
     </div>
   );
 }
-
+ 
 
 export default App;
