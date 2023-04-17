@@ -1,0 +1,239 @@
+.container{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-image: url("./back.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: space-between;
+  height:100vh;
+  width: 100vw;
+  padding: 200px 300px 1000px 300px ;
+}
+
+.title-container{
+  /* background-color: rgba(56, 74, 109, 0.349); */
+  border-radius: 20px;
+  width: 30vw;
+  height: 50vh;
+  font-size: 50px;
+  color: rgb(231, 231, 231);
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding-top: 200px;
+  padding-right: 100px;
+}
+
+.title-container p{
+  font-size: 18px;
+}
+
+.signin-container{
+  background-color: rgba(56, 74, 109, 0.301);
+  border-radius: 5px;
+  width: 25vw;
+  height: 80vh;
+  color: rgb(231, 231, 231);
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-top: 40px;
+  padding-top: 20px; 
+  padding-left: 10%;
+}
+
+.signin h1{
+  font-size: 60px;
+  padding-left: 40px;
+}
+
+.signin h1 span {
+  border-bottom: 5px solid white;
+}
+
+.formlist{
+  list-style: none;
+  font-size: 20px;
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.form-items{
+  padding: 18px 0 8px 0;
+  
+}
+.formlist input{
+  border-radius: 27px;
+  border-style: solid;
+  border-color: rgba(76, 102, 119, 0.404);
+  height: 34px;
+  width: 270px;
+  color: white;
+  background-color: rgba(255, 255, 255, 0.219);
+  font-size: 18px;
+  padding-left: 25px;
+}
+
+.signin-container button{
+  margin-top: 55px;
+  border-radius: 27px;
+  border-style: solid;
+  border-color: rgb(76, 102, 119);
+  border-radius: 23px;
+  height: 1.9em;
+  width: 300px;
+  color: rgb(0, 0, 0);
+  background-color: rgba(255, 255, 255, 0.219);
+  font-size: 21px;
+  font-weight:200;
+	background-image: linear-gradient( 90deg, #ff00d4, #53ebff ) ;
+
+}
+.signin-container button a{
+  color: white;
+  text-decoration: none;
+}
+
+.socials {
+  display: flex-start;
+  /* justify-content: start; */
+  padding-left: 80px;
+}
+
+.social-list {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  
+}
+
+.social-items {
+  margin: 0 10px;
+  margin-top:16px;
+}
+
+.social-items i{
+  color: aliceblue;
+  font-size: 33px;
+}
+
+.social-items:first-child {
+  margin-left: 0;
+}
+
+.social-items:last-child {
+  margin-right: 0;
+}
+
+.log{
+  font-size: 80px;
+  padding-left: 3%;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+  .container {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    flex-direction: column;
+    padding: 0 10%;
+    padding-right: 30% ;
+  }
+
+
+  .title-container {
+    width: 70%;
+    height: 12%;
+    font-size: 19px;
+    padding-top: 70px;
+    padding-left: 50px;
+  }
+  .title-container p{
+    font-size: 15px;
+  }
+  
+  .signin-container {
+    width: 100%;
+    height: 80%;
+    margin-bottom: 100px;
+    padding-left: 58px;
+  }
+
+  .signin h1{
+    padding-left: 20%;
+    font-size: 30px;
+  }
+  .signin h1 span {
+    border-bottom: 2px solid white;
+  }
+
+  .form-items {
+    padding: 8px 0;
+    font-size: 17px;
+  }
+  
+  .formlist input {
+    width: 68%;
+    font-size: 18px;
+    margin-bottom: 8px;
+  }
+  
+  .signin-container button {
+    font-size: 20px;
+    width: 76%;
+    height: 38px;
+  }
+  
+  .socials {
+    padding-left: 20%;
+  }
+  .social-items i{
+    font-size: 28px;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1554px) {
+  .container {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    padding: 0 10%;
+    padding-right: 25% ;
+    padding-left: 15%;
+    justify-content: center;
+  }
+
+  .title-container {
+    width: 100%;
+    font-size: 30px;
+    margin-top: 90px;
+    margin-left: 20%;
+    padding-left: 40px;
+
+  }
+  .title-container p{
+    font-size: 15px;
+  }
+  .signin-container {
+    width: 100%;
+    height: 100%;
+    margin-top: 20%;
+    margin-bottom: 80px;
+    padding: 50px;
+    padding-left: 8%;
+  }
+  .signin h1{
+    padding-left: 25%;
+    font-size: 30px;
+  }
+  .signin h1 span {
+    border-bottom: 2px solid white;
+  }
+  .socials {
+    padding-left: 60px;
+  }
+}
